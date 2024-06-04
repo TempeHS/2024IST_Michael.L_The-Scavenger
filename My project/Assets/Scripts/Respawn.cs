@@ -23,9 +23,9 @@ public class KillPlayer : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {
-            Scene currentScene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(currentScene.name);
-            // player.transform.position = respawnPoint.position; -> use this code to use the checkpoint, use the above code(longer one) to reload the scene
+            //Scene currentScene = SceneManager.GetActiveScene();
+            //SceneManager.LoadScene(currentScene.name);
+            player.transform.position = respawnPoint.position; //-> use this code to use the checkpoint, use the above code(longer one) to reload the scene
             
         }
     }
