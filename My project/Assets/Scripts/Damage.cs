@@ -6,6 +6,7 @@ public class Damage : MonoBehaviour
 {
     public PlayerHealth pHealth;
     public float damage;
+    public PlayerMovement playerMovement;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,17 @@ public class Damage : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {
+            playerMovement.KBCounter = playerMovement.KBTotalTime;
+
+            if(other.transform.position.x <= transform.position.x)
+            {
+                playerMovement.KnockFromRight = true;
+            }
+            if(other.transform.position.x > transform.position.x)
+            {
+                playerMovement.KnockFromRight = false;
+            }
+
             pHealth.health -= damage;
         }
     }
