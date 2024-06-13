@@ -6,13 +6,14 @@ public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
     private float speed = 0.8f;
-    private float jumpingPower = 5f;
+    private float jumpingPower = 2f;
     private bool isFacingRight = true;
     public float KBForce;
     public float KBCounter;
     public float KBTotalTime;
     public bool KnockFromRight;
-
+    
+    public Animator anim;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -33,6 +34,8 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Flip();
+
+        anim.SetBool("IsJumping", !IsGrounded());
     }
 
     private void FixedUpdate()
