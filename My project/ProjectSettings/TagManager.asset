@@ -7,11 +7,12 @@ TagManager:
   - Ground
   - Weak Point
   - Enemy
+  - Enemies
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemies
   - Water
   - UI
   - Ground

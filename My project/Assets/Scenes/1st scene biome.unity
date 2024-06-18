@@ -274,6 +274,7 @@ GameObject:
   - component: {fileID: 273570102}
   - component: {fileID: 273570105}
   - component: {fileID: 273570106}
+  - component: {fileID: 273570107}
   m_Layer: 0
   m_Name: WolfEnemy
   m_TagString: Weak Point
@@ -327,7 +328,7 @@ MonoBehaviour:
   patrolPoints:
   - {fileID: 590911965}
   - {fileID: 790206650}
-  moveSpeed: 0.5
+  moveSpeed: 0.2
   patrolDestination: 0
   playerTransform: {fileID: 377330369}
   isChasing: 0
@@ -359,6 +360,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &273570107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273570101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10d6713f6c9a65745b245d907276b917, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
 --- !u!1 &377330367
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,6 +462,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2113293318}
+  - {fileID: 1051663709}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &377330370
@@ -595,6 +610,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 377330374}
+  attackPoint: {fileID: 1051663709}
+  attackRange: 0.2
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 8
+  attackDamage: 40
 --- !u!1 &505536496
 GameObject:
   m_ObjectHideFlags: 0
@@ -1200,6 +1221,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1051663708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1051663709}
+  m_Layer: 0
+  m_Name: AttackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1051663709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051663708}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.097, y: -0.152, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 377330369}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1173575160
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,9 +1263,9 @@ GameObject:
   - component: {fileID: 1173575161}
   - component: {fileID: 1173575163}
   - component: {fileID: 1173575162}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WolfEnemy Sprite
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
