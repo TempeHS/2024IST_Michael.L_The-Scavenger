@@ -28,5 +28,6 @@ public class EnemyHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("Enemy felled");
+
     }
 }

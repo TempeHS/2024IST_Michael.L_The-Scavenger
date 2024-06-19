@@ -275,7 +275,7 @@ GameObject:
   - component: {fileID: 273570105}
   - component: {fileID: 273570106}
   - component: {fileID: 273570107}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WolfEnemy
   m_TagString: Weak Point
   m_Icon: {fileID: 0}
@@ -457,7 +457,7 @@ Transform:
   m_GameObject: {fileID: 377330367}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.001, y: -4.35, z: 0}
+  m_LocalPosition: {x: -10.001, y: -4.339, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -611,7 +611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 377330374}
   attackPoint: {fileID: 1051663709}
-  attackRange: 0.2
+  attackRange: 0.1
   enemyLayers:
     serializedVersion: 2
     m_Bits: 8
@@ -1246,7 +1246,7 @@ Transform:
   m_GameObject: {fileID: 1051663708}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.097, y: -0.152, z: 0}
+  m_LocalPosition: {x: 0.097, y: -0.218, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1263,6 +1263,7 @@ GameObject:
   - component: {fileID: 1173575161}
   - component: {fileID: 1173575163}
   - component: {fileID: 1173575162}
+  - component: {fileID: 1173575164}
   m_Layer: 3
   m_Name: WolfEnemy Sprite
   m_TagString: Enemy
@@ -1372,6 +1373,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1173575164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173575160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10d6713f6c9a65745b245d907276b917, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
 --- !u!1 &1703861448
 GameObject:
   m_ObjectHideFlags: 0
