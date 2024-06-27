@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     public float KBTotalTime;
     public bool KnockFromRight;
     
+    public CoinManager cm;
+    
     public Animator anim;
 
     [SerializeField] private Rigidbody2D rb;
@@ -72,6 +74,15 @@ public class PlayerMovement : MonoBehaviour
             Vector3 localScale = transform.localScale;
             localScale.x *= -1f;
             transform.localScale = localScale;
+        }
+    }
+
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.CompareTag("Pickup"))
+        {
+             cm.coinCount++;
         }
     }
 }
