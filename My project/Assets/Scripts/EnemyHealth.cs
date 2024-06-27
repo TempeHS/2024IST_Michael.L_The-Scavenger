@@ -17,16 +17,19 @@ public class EnemyHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        Debug.Log("u hit me");
 
 
         if(currentHealth <= 0)
         {
             Die();
+            gameObject.SetActive(false);
         }
     }
 
     void Die()
     {
         Debug.Log("Enemy felled");
+
     }
 }

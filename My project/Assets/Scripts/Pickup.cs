@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Pickup : MonoBehaviour
 {
+    public int coinCount;
 
     void OnTriggerEnter2D(Collider2D collision)
     {
