@@ -10,19 +10,25 @@ public class PlayerCombat : MonoBehaviour
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
     public int attackDamage = 40;
-
+    [SerializeField] private Cooldown cooldown; 
 
   // Update is called once per frame
     void Update()
     {
+        if (cooldown.IsCoolingDown) return;
+
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             Attack();
+
+            cooldown.StartCooldown();
         }
     }
 
     void Attack()
     {
+
+
         animator.SetTrigger("Attack");
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers); 
@@ -31,6 +37,7 @@ public class PlayerCombat : MonoBehaviour
         {
             enemy.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
         }
+
     }
 
     void OnDrawGizmosSelected()
