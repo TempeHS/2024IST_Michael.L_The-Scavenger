@@ -12,9 +12,7 @@ public class PlayerMovement : MonoBehaviour
     public float KBCounter;
     public float KBTotalTime;
     public bool KnockFromRight;
-    
-    public CoinManager cm;
-    
+    public CoinManager cm; 
     public Animator anim;
 
     [SerializeField] private Rigidbody2D rb;

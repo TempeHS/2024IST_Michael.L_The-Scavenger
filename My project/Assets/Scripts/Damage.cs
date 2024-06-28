@@ -7,17 +7,8 @@ public class Damage : MonoBehaviour
     public PlayerHealth pHealth;
     public float damage;
     public PlayerMovement playerMovement;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 
     private void OnCollisionEnter2D(Collision2D other)
     {
