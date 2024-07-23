@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c4be172caaf20a140a36e14a43d2461f
+guid: 19320a0a46e39f64b82085a82d5feb0f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 140
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Character (1)_0
+      name: CHARACTER WALKING FINAL (3)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 120
+        y: 110
         width: 60
-        height: 60
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5490181fb5da4f43b0d92be22750790
-      internalID: -11406687
+      spriteID: 827d57cf3027590439857cae4d3cf574
+      internalID: -776570312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character (1)_1
+      name: CHARACTER WALKING FINAL (3)_1
       rect:
         serializedVersion: 2
         x: 60
-        y: 120
+        y: 110
         width: 60
-        height: 60
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c44d6b6d9ccd0b34d891a4344f939b56
-      internalID: -1801086312
+      spriteID: 879bc2ce21e4a75469c3938c0f32c72a
+      internalID: 767347956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character (1)_2
+      name: CHARACTER WALKING FINAL (3)_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 60
+        x: 120
+        y: 110
         width: 60
-        height: 60
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d44ff7e59246e747b955613243cb408
-      internalID: 1089737183
+      spriteID: ddc506291123de84aa709f541689523c
+      internalID: 1567495131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character (1)_3
+      name: CHARACTER WALKING FINAL (3)_3
       rect:
         serializedVersion: 2
-        x: 60
-        y: 60
+        x: 180
+        y: 110
         width: 60
-        height: 60
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1116fb0c5223684ca5f57d9656f3b8e
-      internalID: 1648977648
+      spriteID: 9660c3e314060724595f23760cc584e9
+      internalID: 562595485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character (1)_4
+      name: CHARACTER WALKING FINAL (3)_4
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 60
-        height: 60
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,8 +221,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e38c9e6b70ddb5a479af997f0500e3e2
-      internalID: -1341520350
+      spriteID: b40b38d3f012db44a8b45f14be2ebbe6
+      internalID: -1829437783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER WALKING FINAL (3)_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 60
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc722ae4c7bc77643997ac12e6519bad
+      internalID: 754988378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER WALKING FINAL (3)_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 60
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c948dcd53a8beb458301bbdeb528f99
+      internalID: 907108317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER WALKING FINAL (3)_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 60
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85c876a5c8fab94ca95b1662d2400fd
+      internalID: -2027750291
       vertices: []
       indices: 
       edges: []
@@ -238,11 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Character (1)_0: -11406687
-      Character (1)_1: -1801086312
-      Character (1)_2: 1089737183
-      Character (1)_3: 1648977648
-      Character (1)_4: -1341520350
+      CHARACTER WALKING FINAL (3)_0: -776570312
+      CHARACTER WALKING FINAL (3)_1: 767347956
+      CHARACTER WALKING FINAL (3)_2: 1567495131
+      CHARACTER WALKING FINAL (3)_3: 562595485
+      CHARACTER WALKING FINAL (3)_4: -1829437783
+      CHARACTER WALKING FINAL (3)_5: 754988378
+      CHARACTER WALKING FINAL (3)_6: 907108317
+      CHARACTER WALKING FINAL (3)_7: -2027750291
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
