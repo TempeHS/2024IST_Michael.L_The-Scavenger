@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 758f8ee806b749f45aefd768dececb14
+guid: 5f5b23f0a66253d4fa64d6850234d316
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 140
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Character-1.png 1_0
+      name: CHARACTER WALKING FINAL (2)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 80
+        y: 100
         width: 60
-        height: 80
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24332481bef06bb41aa3355c61c5898e
-      internalID: -1224122566
+      spriteID: 35c635befb3a16d43ba60f9b8367d915
+      internalID: -1525878105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character-1.png 1_1
+      name: CHARACTER WALKING FINAL (2)_1
       rect:
         serializedVersion: 2
         x: 60
-        y: 80
+        y: 100
         width: 60
-        height: 80
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db1b018ef914e144babea5e5083e580b
-      internalID: -1260136927
+      spriteID: 71e5699e4b6eb15459745d57ee8a83e3
+      internalID: -488645856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character-1.png 1_2
+      name: CHARACTER WALKING FINAL (2)_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 100
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685724edea6d3344eb9127a010b5dc31
+      internalID: 659561415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER WALKING FINAL (2)_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 100
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f33da876fa11d43b7d4720200766d6
+      internalID: -1730445227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER WALKING FINAL (2)_4
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 60
-        height: 80
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +221,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf0a7a18ff783344995e73d42570c3da
-      internalID: 981000023
+      spriteID: 3a0afa76cb3521f4089f1ff17033d7e4
+      internalID: 534809268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER WALKING FINAL (2)_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58393ee44f795f4486bb837d7134c86
+      internalID: 1432484603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER WALKING FINAL (2)_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5c1a393919a594183bc74855eda3cd
+      internalID: 1339804649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER WALKING FINAL (2)_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373b4fe20939c2c408f6e6c5378e05bc
+      internalID: -364751188
       vertices: []
       indices: 
       edges: []
@@ -196,9 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Character-1.png 1_0: -1224122566
-      Character-1.png 1_1: -1260136927
-      Character-1.png 1_2: 981000023
+      CHARACTER WALKING FINAL (2)_0: -1525878105
+      CHARACTER WALKING FINAL (2)_1: -488645856
+      CHARACTER WALKING FINAL (2)_2: 659561415
+      CHARACTER WALKING FINAL (2)_3: -1730445227
+      CHARACTER WALKING FINAL (2)_4: 534809268
+      CHARACTER WALKING FINAL (2)_5: 1432484603
+      CHARACTER WALKING FINAL (2)_6: 1339804649
+      CHARACTER WALKING FINAL (2)_7: -364751188
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
