@@ -23,6 +23,20 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
 
+        if (horizontal != 0)
+        {
+            anim.SetBool("IsWalking", true);
+        }
+        else 
+        {
+            anim.SetBool("IsWalking", false);
+        }
+
+        if (anim.Bool("IsJumping", true));
+        {
+            anim.SetBool("IsWalking", false);
+        }
+
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
@@ -36,6 +50,7 @@ public class PlayerMovement : MonoBehaviour
         Flip();
 
         anim.SetBool("IsJumping", !IsGrounded());
+
     }
 
     private void FixedUpdate()
