@@ -296,7 +296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pHealth: {fileID: 377330373}
-  damage: 50
+  damage: 30
   playerMovement: {fileID: 377330370}
 --- !u!4 &273570104
 Transform:
@@ -334,7 +334,6 @@ MonoBehaviour:
   playerTransform: {fileID: 377330369}
   isChasing: 0
   chaseDistance: 1
-  playerHealth: {fileID: 0}
 --- !u!50 &273570106
 Rigidbody2D:
   serializedVersion: 4
@@ -560,8 +559,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b51adf906f58f44cbf321701502851c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
-  jumpingPower: 2
   KBForce: 1
   KBCounter: 0
   KBTotalTime: 0.2
@@ -662,8 +659,6 @@ MonoBehaviour:
   HealthBarColour: {fileID: 527197569}
   player: {fileID: 377330367}
   respawnPoint: {fileID: 1023533351}
-  anim: {fileID: 377330374}
-  playerMovement: {fileID: 0}
 --- !u!95 &377330374
 Animator:
   serializedVersion: 5
