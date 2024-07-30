@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 0.8f;
-    private float jumpingPower = 2f;
+    public float speed = 0.8f;
+    public float jumpingPower = 2f;
     private bool isFacingRight = true;
     public float KBForce;
     public float KBCounter;
@@ -28,11 +28,6 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("IsWalking", true);
         }
         else 
-        {
-            anim.SetBool("IsWalking", false);
-        }
-
-        if (anim.Bool("IsJumping", true));
         {
             anim.SetBool("IsWalking", false);
         }
