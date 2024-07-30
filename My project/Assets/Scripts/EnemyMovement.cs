@@ -11,10 +11,20 @@ public class NewBehaviourScript : MonoBehaviour
     public Transform playerTransform; 
     public bool isChasing;
     public float chaseDistance; 
+    public PlayerHealth playerHealth;
 
+    void Start()
+    {
+        playerHealth = FindObjectOfType<PlayerHealth>();
+    }
 
     void Update()
     {
+        if(playerHealth.health <= 0)
+        {
+            isChasing = false;
+        }
+
         if(isChasing) 
         {
             if(transform.position.x > playerTransform.position.x)
