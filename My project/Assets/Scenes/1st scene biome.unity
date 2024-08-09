@@ -2766,6 +2766,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  itemDrops:
+  - {fileID: 4915658677316205834, guid: 557f446bc6cc0a84491786d1b2c247f5, type: 3}
+  - {fileID: 4915658677316205834, guid: 557f446bc6cc0a84491786d1b2c247f5, type: 3}
+  - {fileID: 4915658677316205834, guid: 557f446bc6cc0a84491786d1b2c247f5, type: 3}
 --- !u!1 &334211789
 GameObject:
   m_ObjectHideFlags: 0
@@ -3914,6 +3918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  itemDrops: []
 --- !u!1 &1341577390
 GameObject:
   m_ObjectHideFlags: 0
