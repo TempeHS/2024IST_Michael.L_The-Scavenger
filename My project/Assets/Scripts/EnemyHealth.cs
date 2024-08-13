@@ -8,6 +8,7 @@ public class EnemyHealth : MonoBehaviour
     public int maxHealth = 100;
     int currentHealth;
     public GameObject[] itemDrops;
+    public Animator anim;
 
 
     // Start is called before the first frame update
@@ -24,10 +25,7 @@ public class EnemyHealth : MonoBehaviour
 
         if(currentHealth <= 0)
         {
-            Die();
-            gameObject.SetActive(false);
-            
-        
+            Die();        
         }
     }
 
@@ -40,7 +38,10 @@ public class EnemyHealth : MonoBehaviour
             Instantiate(itemDrops[i], transform.position + new Vector3(0, 1, 0), Quaternion.identity);
         }
 
+        anim.SetBool("IsDead", true);
+        GetComponent<CapsuleCollider2D>().enabled = true;
+        GetComponent<EnemyHealth>().enabled = false;
+        
     }
-
-
 }
+    
