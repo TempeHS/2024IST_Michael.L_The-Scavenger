@@ -2766,10 +2766,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  itemDrops:
-  - {fileID: 4915658677316205834, guid: 557f446bc6cc0a84491786d1b2c247f5, type: 3}
-  - {fileID: 4915658677316205834, guid: 557f446bc6cc0a84491786d1b2c247f5, type: 3}
-  - {fileID: 4915658677316205834, guid: 557f446bc6cc0a84491786d1b2c247f5, type: 3}
+  itemDrops: []
+  anim: {fileID: 0}
 --- !u!1 &334211789
 GameObject:
   m_ObjectHideFlags: 0
@@ -3796,6 +3794,7 @@ GameObject:
   - component: {fileID: 1173575163}
   - component: {fileID: 1173575162}
   - component: {fileID: 1173575164}
+  - component: {fileID: 1173575165}
   m_Layer: 3
   m_Name: WolfEnemy Sprite
   m_TagString: Enemy
@@ -3919,6 +3918,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   itemDrops: []
+  anim: {fileID: 1173575165}
+--- !u!95 &1173575165
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173575160}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: adc8b8bb5d728364aa982e7d05e44323, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1341577390
 GameObject:
   m_ObjectHideFlags: 0
