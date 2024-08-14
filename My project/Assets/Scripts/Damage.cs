@@ -8,6 +8,10 @@ public class Damage : MonoBehaviour
     public float damage;
     public PlayerMovement playerMovement;
 
+    void Start()
+    {
+        
+    }
 
 
     private void OnCollisionEnter2D(Collision2D other)
