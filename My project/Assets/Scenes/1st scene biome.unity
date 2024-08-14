@@ -2663,10 +2663,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 273570104}
-  - component: {fileID: 273570102}
   - component: {fileID: 273570105}
+  - component: {fileID: 273570102}
   - component: {fileID: 273570106}
-  - component: {fileID: 273570107}
   m_Layer: 3
   m_Name: WolfEnemy
   m_TagString: Weak Point
@@ -2753,21 +2752,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &273570107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 273570101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10d6713f6c9a65745b245d907276b917, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  itemDrops: []
-  anim: {fileID: 0}
 --- !u!1 &334211789
 GameObject:
   m_ObjectHideFlags: 0
@@ -3849,8 +3833,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.08715699, y: -0.104857236}
-  m_Size: {x: 0.60378253, y: 0.716073}
+  m_Offset: {x: -0.11634907, y: -0.04758708}
+  m_Size: {x: 0.5453984, y: 0.6015326}
   m_Direction: 0
 --- !u!212 &1173575163
 SpriteRenderer:
@@ -3917,7 +3901,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  itemDrops: []
+  itemDrops:
+  - {fileID: 4915658677316205834, guid: 557f446bc6cc0a84491786d1b2c247f5, type: 3}
   anim: {fileID: 1173575165}
 --- !u!95 &1173575165
 Animator:
