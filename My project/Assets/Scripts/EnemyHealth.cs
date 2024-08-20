@@ -8,6 +8,7 @@ public class EnemyHealth : MonoBehaviour
     public int maxHealth = 100;
     int currentHealth;
     public GameObject[] itemDrops;
+    public GameObject WolfEnemySprite;
     public Animator anim;
     public EnemyMovement enemyMovement;
     public Damage damage;
@@ -51,8 +52,15 @@ public class EnemyHealth : MonoBehaviour
         playerMovement.KBForce = 0;
         playerMovement.KBCounter = 0;
         this.enabled = false;
+        StartCoroutine(Dying());
+    }
 
-    
+    IEnumerator Dying()
+    {
+        Debug.Log("start death");   
+        yield return new WaitForSeconds(3);
+        Debug.Log("waited");
+        Destroy(gameObject);
     }
 }
     
