@@ -61,6 +61,8 @@ public class EnemyHealth : MonoBehaviour
         yield return new WaitForSeconds(3);
         Debug.Log("waited");
         Destroy(gameObject);
+        playerMovement.KBForce = 1;
+        playerMovement.KBCounter = 0;
     }
 }
     
