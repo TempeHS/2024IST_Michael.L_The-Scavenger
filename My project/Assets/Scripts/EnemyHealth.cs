@@ -28,6 +28,8 @@ public class EnemyHealth : MonoBehaviour
     {
         currentHealth -= damage;
         Debug.Log("u hit me");
+        anim.SetTrigger("Hurt");
+        anim.SetTrigger("NotHurt");
 
 
         if(currentHealth <= 0)
@@ -52,6 +54,8 @@ public class EnemyHealth : MonoBehaviour
         playerMovement.KBForce = 0;
         playerMovement.KBCounter = 0;
         this.enabled = false;
+        // make it wait for 3 seconds
+        anim.enabled = false;
         StartCoroutine(Dying());
     }
 
