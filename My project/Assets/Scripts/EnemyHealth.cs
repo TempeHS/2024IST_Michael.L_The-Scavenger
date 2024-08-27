@@ -6,7 +6,7 @@ public class EnemyHealth : MonoBehaviour
 {
 
     public int maxHealth = 100;
-    int currentHealth;
+    public int currentHealth;
     public GameObject[] itemDrops;
     public GameObject WolfEnemySprite;
     public Animator anim;
@@ -25,9 +25,12 @@ public class EnemyHealth : MonoBehaviour
     }
 
     public void TakeDamage(int damage)
-    {
+    {   
+
         currentHealth -= damage;
         Debug.Log("u hit me");
+        anim.SetTrigger("Hurt");
+        anim.SetTrigger("NotHurt");
 
 
         if(currentHealth <= 0)
@@ -37,7 +40,8 @@ public class EnemyHealth : MonoBehaviour
     }
 
     void Die()
-    {
+    {   
+        anim.SetTrigger("NotHurt");
         Debug.Log("Enemy felled");
         Debug.Log("drop");
         for (int i = 0; i < itemDrops.Length; i++)
@@ -57,9 +61,10 @@ public class EnemyHealth : MonoBehaviour
 
     IEnumerator Dying()
     {
-        Debug.Log("start death");   
+        Debug.Log("start death");
         yield return new WaitForSeconds(3);
         Debug.Log("waited");
+        currentHealth = maxHealth;
         Destroy(gameObject);
         playerMovement.KBForce = 1;
         playerMovement.KBCounter = 0;
