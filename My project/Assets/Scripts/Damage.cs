@@ -7,6 +7,7 @@ public class Damage : MonoBehaviour
     public PlayerHealth pHealth;
     public float damage;
     public PlayerMovement playerMovement;
+    private Animator anim;
 
     void Start()
     {
@@ -18,6 +19,7 @@ public class Damage : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {
+
             playerMovement.KBCounter = playerMovement.KBTotalTime;
 
             if(other.transform.position.x <= transform.position.x)
@@ -30,6 +32,7 @@ public class Damage : MonoBehaviour
             }
 
             pHealth.health -= damage;
+
         }
     }
 

@@ -10,9 +10,17 @@ public class PlayerCombat : MonoBehaviour
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
     public int attackDamage = 40;
-    [SerializeField] private Cooldown cooldown; 
+    [SerializeField] private Cooldown cooldown;
+    private EnemyHealth enemyHealth;
+    private PlayerCombat playerCombat;
 
   // Update is called once per frame
+
+    void Start()
+    {
+        enemyHealth = FindObjectOfType<EnemyHealth>();
+    }
+
     void Update()
     {
         if (cooldown.IsCoolingDown) return;
@@ -38,7 +46,13 @@ public class PlayerCombat : MonoBehaviour
             enemy.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
         }
 
+        if(enemyHealth.currentHealth <= 0)
+        {
+            StartCoroutine(AttackWait());
+        }
+
     }
+    
 
     void OnDrawGizmosSelected()
     {
@@ -46,5 +60,14 @@ public class PlayerCombat : MonoBehaviour
         return;
 
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+
+
+    IEnumerator AttackWait()
+    {
+        this.enabled = false;
+        yield return new WaitForSeconds(3);
+        Debug.Log("combat wait");
+        this.enabled = true;
     }
 }
