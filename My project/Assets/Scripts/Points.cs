@@ -7,10 +7,8 @@ using UnityEngine.UI;
 public class Points : MonoBehaviour
 {
     public static Points instance;
-
     public Text scoreText;
-
-    int score = 0;
+    public int score = 0;
 
     void Awake()
     {
