@@ -11,6 +11,7 @@ public class Pickup : MonoBehaviour
         if(collision.tag == "Player")
         {
             Destroy(gameObject);
+            Points.instance.AddPoint();
         }
     }
 
