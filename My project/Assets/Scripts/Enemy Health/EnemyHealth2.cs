@@ -10,7 +10,7 @@ public class EnemyHealth2 : MonoBehaviour
     public GameObject[] itemDrops;
     public GameObject WolfEnemySprite2;
     public Animator anim;
-    public EnemyMovement enemyMovement;
+    public EnemyMovement2 enemyMovement2;
     public Damage damage;
     public PlayerMovement playerMovement;
 
@@ -19,7 +19,7 @@ public class EnemyHealth2 : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        enemyMovement = FindObjectOfType<EnemyMovement>();
+        enemyMovement2 = FindObjectOfType<EnemyMovement2>();
         damage = FindObjectOfType<Damage>();
         playerMovement = FindObjectOfType<PlayerMovement>();
     }
@@ -50,7 +50,7 @@ public class EnemyHealth2 : MonoBehaviour
         }
 
         anim.SetBool("IsDead", true);
-        enemyMovement.enabled = false;
+        enemyMovement2.enabled = false;
         damage.enabled = false;
         damage.damage = 0;
         playerMovement.KBForce = 0;

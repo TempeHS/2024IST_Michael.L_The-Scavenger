@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class EnemyMovement2 : MonoBehaviour
 {
-   public Transform[] patrolPoints;
+    
+    public Transform[] patrolPoints;
     public float moveSpeed; 
     public int patrolDestination;
     public Transform playerTransform; 
