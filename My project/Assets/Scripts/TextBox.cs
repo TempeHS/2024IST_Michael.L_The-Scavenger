@@ -12,6 +12,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     private int index;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,9 +23,10 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if(Input.GetMouseButtonDown(0))
         {
-            if(textComponent . text == lines[index])
+            if(textComponent.text == lines[index])
             {
                 NextLine();
             }
