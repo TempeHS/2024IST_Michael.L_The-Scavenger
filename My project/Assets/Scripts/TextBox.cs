@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class NewBehaviourScript : MonoBehaviour
+public class TextBox : MonoBehaviour
 {
 
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
-
     private int index;
 
 

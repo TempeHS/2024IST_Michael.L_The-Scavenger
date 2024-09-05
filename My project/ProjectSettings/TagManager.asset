@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Enemies
   - Pickup
+  - TextTrigger
   layers:
   - Default
   - TransparentFX
