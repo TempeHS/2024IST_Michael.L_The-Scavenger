@@ -10,6 +10,7 @@ TagManager:
   - Enemies
   - Pickup
   - TextTrigger
+  - LevelExit
   layers:
   - Default
   - TransparentFX

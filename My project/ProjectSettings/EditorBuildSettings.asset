@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/1st scene biome.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/2nd scene Biome.unity
+    guid: 410efe9856c45d04a8bffe1fcc51cfc8
+  - enabled: 0
     path: Assets/Scenes/SecondScene.unity
     guid: 4cd715b27673c70478fc5d2cb92e6e5f
   m_configObjects: {}
