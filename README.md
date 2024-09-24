@@ -14,11 +14,11 @@ Throughout the game the player will need to colect as many collectables as possi
 
 ## Unity
 
-Unity Game engine
+**Unity Game engine**
 ![unity](https://github.com/user-attachments/assets/d5f2a8ab-d88f-4eca-a5c2-eae42b922da6)
 
 ## Piskel
 
-Piskel sprite creator
+**Piskel sprite creator**
 ![Pikskel](https://github.com/user-attachments/assets/7d78a18c-7c21-4ccb-ae8a-43a847539745)
 
