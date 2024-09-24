@@ -10,6 +10,12 @@ For the different levels we decided on having the main character travel through 
 ### Intention for Collectables
 Throughout the game the player will need to colect as many collectables as possible. These collectables will be in the form of scrap metal or food supplies. At the end of the game it will display how many of these supplies the player has collected. This is the underlying goal of the game, other than getting back to your bunker. 
 
+# How to play the game
+The player can use the A & D keys to move to the left or the right ( A to the left, D to the right). The space-bar, when pressed, will allow the player to jump in the air, an the LEFT MOUSE button will swing the players sword, damaging any enemies in its radius.
+
+![20240924_164043](https://github.com/user-attachments/assets/28c8e391-ba78-46db-953e-fd857ca48220)
+
+
 # Tools Used in this game
 
 ## Unity
