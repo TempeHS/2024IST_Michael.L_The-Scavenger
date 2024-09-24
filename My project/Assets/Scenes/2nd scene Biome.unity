@@ -38917,7 +38917,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 72.984344, y: 1.8412309, z: 0}
+    m_Scale: {x: 72.984344, y: 6.7846713, z: 0}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -84075,8 +84075,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0036999881, y: 0.0020499825, z: 0}
-    m_Extent: {x: 0.99979997, y: 1.0072501, z: 0}
+    m_Center: {x: 0.0016499758, y: -0.00079998374, z: 0}
+    m_Extent: {x: 1.00685, y: 0.99959993, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -106574,8 +106574,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.003700018, y: -0.000049948692, z: 0}
-    m_Extent: {x: 1.0031, y: 1.00825, z: 0}
+    m_Center: {x: 0.0014500022, y: -0.0014500022, z: 0}
+    m_Extent: {x: 1.00425, y: 1.00525, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
