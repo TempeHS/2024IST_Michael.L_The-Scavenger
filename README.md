@@ -17,6 +17,7 @@ On keyboard, the player can use the A & D keys to move to the left or the right 
 
 On controller, the player can use the left joystick to move to the left or right. The A button, when pressed, will allow the player to jump in the air, and the right trigger button will swing the players sword, damaging any enemies in its radius. 
 
+![Untitled drawing](https://github.com/user-attachments/assets/99b6d252-5315-48e8-9c37-5a84d93baa91)
 
 
 
