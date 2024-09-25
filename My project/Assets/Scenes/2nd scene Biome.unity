@@ -48727,7 +48727,7 @@ Transform:
   m_GameObject: {fileID: 377330367}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 52.9, y: -4.393, z: 0}
+  m_LocalPosition: {x: -12.137, y: -4.393, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -60150,7 +60150,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -84303,8 +84303,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.0040499866, y: -0.006399989, z: 0}
-    m_Extent: {x: 0.99934995, y: 1.0035, z: 0}
+    m_Center: {x: 0.0022500157, y: 0.005700022, z: 0}
+    m_Extent: {x: 1.00525, y: 1.0003, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -106720,8 +106720,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0030499697, y: -0.007799983, z: 0}
-    m_Extent: {x: 1.00545, y: 1, z: 0}
+    m_Center: {x: -0.0046000183, y: -0.0042999983, z: 0}
+    m_Extent: {x: 1.0007, y: 1.0047, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0

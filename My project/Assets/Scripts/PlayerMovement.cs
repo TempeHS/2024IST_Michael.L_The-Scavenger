@@ -90,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Pickup"))
         {
-             cm.coinCount++;
+            cm.coinCount++;
         }
     }
 
