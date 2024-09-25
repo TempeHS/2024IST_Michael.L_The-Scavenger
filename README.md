@@ -4,7 +4,7 @@
 
 # Table of contents
 
-<br> **What I in intend to create**
+**What I in intend to create**
 <br> **How to play the game**
 <br> **Tools used on this game**
 
