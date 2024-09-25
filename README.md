@@ -19,6 +19,8 @@ On controller, the player can use the left joystick to move to the left or right
 
 ![Untitled drawing](https://github.com/user-attachments/assets/99b6d252-5315-48e8-9c37-5a84d93baa91)
 
+# The Aim of the task 
+# Developer thingo
 
 
 
