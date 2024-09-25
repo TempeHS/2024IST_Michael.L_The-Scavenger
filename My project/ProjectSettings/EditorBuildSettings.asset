@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2nd scene Biome.unity
     guid: 410efe9856c45d04a8bffe1fcc51cfc8
-  - enabled: 0
-    path: Assets/Scenes/SecondScene.unity
-    guid: 4cd715b27673c70478fc5d2cb92e6e5f
+  - enabled: 1
+    path: Assets/Scenes/End Scene - summer.unity
+    guid: b89e864b5403f894eaeaeb1392977f19
   m_configObjects: {}
