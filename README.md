@@ -3,6 +3,18 @@
 ![home screen](https://github.com/user-attachments/assets/73050d7c-95b7-4987-9847-4564b6643243)
 
 # Table of Contents 
+- [Table of Contents](#Table-of-Contents)
+- [How to play the game](##How-to-play-the-game)
+- [Controls](#Controls)
+- [What I intended to make](#What-I-intended-to-make)
+- [Walkthrough](#Walkthrough)
+- [What I made](#What-I-Made)
+- [Objective](#Objective)
+- [Scripts](#Scripts)
+- [Assests](#Assests)
+- [Tools used](#Tools-used)
+- [Showcase of Particle](#Showcase-of-Particle)
+- 
 # User Documentation
 
 ## How to play the game
