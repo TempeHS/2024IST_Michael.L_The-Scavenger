@@ -49,6 +49,8 @@ The aim of the task is to design and develop a 2D game in unity. I must apply my
 ## UI
 
 ![Screenshot 2024-09-26 124359](https://github.com/user-attachments/assets/2f0ff579-48fa-4512-901c-9624dbf27290)
+![Screenshot 2024-09-26 192518](https://github.com/user-attachments/assets/7cbc390a-e350-4ac4-a4a3-a7cf1036cc39)
+![Screenshot 2024-09-26 192508](https://github.com/user-attachments/assets/b41a2d4e-eadc-4342-b355-e66280794848)
 
 
 ### Tiles 
