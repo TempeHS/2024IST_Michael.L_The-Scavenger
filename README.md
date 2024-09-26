@@ -41,6 +41,11 @@ The player is a person who is living in an apocalyptic landscape, scavenging for
 ### Enemies/Boss Fight 
 There are two main enemies in this game, both of which, are mutated hyenas, who roam the landscape in search of prey. One of them is located at the end of level one, and the other, the end of level two. The enemies move between two patrol points, going back and forth until a player is in sight. When any of the hyenas see the player, they will enter a 'chase mode', where they will not stop attacking the player until they or the player are dead. When the hyenas come into collision with the player, it knocks them back, while also doing a signifigant amount of damage. Not only that, but the hyenas have a signifigant amount of health as well, being able to take many blows from the player. 
 
+## Level Design
+
+### Level 1 
+level one is based around the season of autumn. 
+
 ### Bibliography - Tutorials used
 
 ## Assets
