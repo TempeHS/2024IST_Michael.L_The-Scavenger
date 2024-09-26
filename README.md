@@ -25,6 +25,12 @@ The aim of the task is to design and develop a 2D game in unity. I must apply my
 
 # Assets
 
+Here are some assets that I used in the game, provided by a multimedia student:
+
+![Screenshot 2024-09-26 124359](https://github.com/user-attachments/assets/2f0ff579-48fa-4512-901c-9624dbf27290)
+![Screenshot 2024-09-26 124420](https://github.com/user-attachments/assets/6322ea56-87c3-4b2f-af9f-e58182a4ceaa)
+![Screenshot 2024-09-26 124437](https://github.com/user-attachments/assets/b8cfc144-8367-46ff-a7be-bac84a44252d)
+![Screenshot 2024-09-26 124457](https://github.com/user-attachments/assets/ea8dd923-e7ae-4bb7-bea9-8717c402d124)
 
 
 
