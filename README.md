@@ -32,9 +32,13 @@ Here are some assets that I used in the game, provided by a multimedia student:
 ![Screenshot 2024-09-26 124437](https://github.com/user-attachments/assets/b8cfc144-8367-46ff-a7be-bac84a44252d)
 ![Screenshot 2024-09-26 124457](https://github.com/user-attachments/assets/ea8dd923-e7ae-4bb7-bea9-8717c402d124)
 
-
-# Walktgrough
 # Developer documentation
+
+
+
+
+
+
 
 
 
