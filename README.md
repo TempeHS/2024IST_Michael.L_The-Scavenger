@@ -34,7 +34,7 @@ Here are some assets that I used in the game, provided by a multimedia student:
 
 
 
-# Developer thingo
+# Developer documentation
 
 
 
