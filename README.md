@@ -12,7 +12,7 @@
 - [What I intended to create](#What-I-intended-to-create)
 - [Characters](#Characters)
 - [Level Design](#Level-Design)
-- [Bibliography](#Bibliography)
+- [Bibliography](#Bibliography---Tutorials-used)
 - [Assets](#Assets)
 
 # User Documentation
