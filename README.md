@@ -16,6 +16,10 @@ On controller, the player can use the left joystick to move to the left or right
 ## The Aim of the game
 The aim of the game is to return home to your apocalyptic bunker after spending all day scavenging for food. Collect as many food items as you can along the way, but be warned, many retched creatures still live in amongst the rubble, and their hungry too!
 
+## Walk through
+
+https://youtu.be/x_jfCNGDfUc
+
 # Developer Documentation
 
 ## What I intended to create
