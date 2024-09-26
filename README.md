@@ -4,9 +4,9 @@
 
 # Table of Contents 
 - [Table of Contents](#Table-of-Contents)
-- [How to play the game](#User-Documentation)
-- [Controls](#Controls)
-- [What I intended to make](#What-I-intended-to-make)
+- [User Documentation](#User-Documentation)
+- [Developer Documentation](#Developer-Documentation)
+- [Tools used in this game](##How-to-play-the-game)
 - [Walkthrough](#Walkthrough)
 - [What I made](#What-I-Made)
 - [Objective](#Objective)
