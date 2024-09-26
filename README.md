@@ -30,12 +30,38 @@ The aim of the task is to design and develop a 2D game in unity. I must apply my
 
 ## Assets
 
-Here are some assets that I used in the game, provided by a multimedia student:
-
-![Screenshot 2024-09-26 124359](https://github.com/user-attachments/assets/2f0ff579-48fa-4512-901c-9624dbf27290)
-![Screenshot 2024-09-26 124420](https://github.com/user-attachments/assets/6322ea56-87c3-4b2f-af9f-e58182a4ceaa)
+### Player 
 ![Screenshot 2024-09-26 124437](https://github.com/user-attachments/assets/b8cfc144-8367-46ff-a7be-bac84a44252d)
 ![Screenshot 2024-09-26 124457](https://github.com/user-attachments/assets/ea8dd923-e7ae-4bb7-bea9-8717c402d124)
+![MainCharacter](https://github.com/user-attachments/assets/2adeb6e0-288a-440e-816b-909ea4b601ae)
+![Character (2)](https://github.com/user-attachments/assets/a574f7be-25a6-4240-a63b-00460f8b6354)
+![Character falling animation](https://github.com/user-attachments/assets/04639106-0aef-4584-89cf-9bb5864c67bb)
+![Character idle ](https://github.com/user-attachments/assets/30688c87-d1fb-49df-8788-383966de6030)
+
+
+## Enemies
+
+![Hyena Hyde Idle](https://github.com/user-attachments/assets/4151ebf0-f2cb-4282-bc1c-e6eadfef3aed)
+![Hyena Hyde death](https://github.com/user-attachments/assets/b4b770ce-cc28-4d6e-8429-737c1c8e71ee)
+![Hyena Hyde Damage](https://github.com/user-attachments/assets/85013b47-f1e9-4162-80b9-6f8f2782b3ab)
+
+
+## UI
+
+![Screenshot 2024-09-26 124359](https://github.com/user-attachments/assets/2f0ff579-48fa-4512-901c-9624dbf27290)
+
+
+### Tiles 
+
+![Screenshot 2024-09-26 124420](https://github.com/user-attachments/assets/6322ea56-87c3-4b2f-af9f-e58182a4ceaa)
+
+### Environment
+
+![Screenshot 2024-09-26 182732](https://github.com/user-attachments/assets/d109b7a4-0f71-4ccc-90fa-5104cb9e2c74)
+![Screenshot 2024-09-26 182722](https://github.com/user-attachments/assets/d9defe92-97b8-42ee-a33f-afe2ee3b447d)
+![Screenshot 2024-09-26 182524](https://github.com/user-attachments/assets/0c7721be-3f8a-4690-aee1-2789c7cc0cd0)
+![Screenshot 2024-09-26 182619](https://github.com/user-attachments/assets/1c5fa3e7-a5bd-4221-98e1-ee90fb229690)
+![Screenshot 2024-09-26 182658](https://github.com/user-attachments/assets/ebea989a-80d5-425b-924a-2af2d07f95b9)
 
 # Tools Used in this game
 
