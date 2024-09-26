@@ -10,11 +10,11 @@
 - [Walkthrough](#Walk-through)
 - [Developer Documentation](#Developer-Documentation)
 - [What I intended to create](#What-I-intended-to-create)
-- [Scripts](#Scripts)
-- [Assests](#Assests)
-- [Tools used](#Tools-used)
-- [Showcase of Particle](#Showcase-of-Particle)
-- 
+- [Characters](#Characters)
+- [Level Design](#Level-Design)
+- [Bibliography](#Bibliography)
+- [Assets](#Assets)
+
 # User Documentation
 
 ## How to play the game
