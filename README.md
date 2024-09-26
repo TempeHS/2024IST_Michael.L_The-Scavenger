@@ -21,7 +21,7 @@ On controller, the player can use the left joystick to move to the left or right
 
 # The Aim of the task 
 
-The aim of the task is to design and develop a 2D game in unity. We must apply our understanding of programming and game engines to complete a fully functioning 2D game. We also need to produce a READ.md that promotes the game and our development skills to a future employer. 
+The aim of the task is to design and develop a 2D game in unity. I must apply my understanding of programming and game engines to complete a fully functioning 2D game. I also need to produce a READ.md that promotes the game and our development skills to a future employer. I worked with a multimedia student who designed and drew, using the Piskel app, all of the sprites that I used in the game. Below is some examples of the sprites that where producede and used. 
 
 # Developer thingo
 
