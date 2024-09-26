@@ -38,6 +38,9 @@ The aim of the task is to design and develop a 2D game in unity. I must apply my
 ### Player
 The player is a person who is living in an apocalyptic landscape, scavenging for food and supplies to bring back to his bunker. He is designed to look scrapy, as clothing is scarse in a barren wasteland. The player can move left, right, and jump up in the air to avoid spiked or climb objects. The player has a sword as well, unsheathing it when the left mouse button is clicked to kill enemies. The player has a substantial amount of health, able to take quite a few blows from enemies, as well as land on a couple spikes before dying.  
 
+### Enemies/Boss Fight 
+There are two main enemies in this game, both of which, are mutated hyenas, who roam the landscape in search of prey. One of them is located at the end of level one, and the other, the end of level two. The enemies move between two patrol points, going back and forth until a player is in sight. When any of the hyenas see the player, they will enter a 'chase mode', where they will not stop attacking the player until they or the player are dead. When the hyenas come into collision with the player, it knocks them back, while also doing a signifigant amount of damage. Not only that, but the hyenas have a signifigant amount of health as well, being able to take many blows from the player. 
+
 ### Bibliography - Tutorials used
 
 ## Assets
