@@ -60,6 +60,20 @@ level one is based around the season of autumn.
 
 ### Bibliography - Tutorials used
 
+- https://www.youtube.com/watch?v=BLfNP4Sc_iA health bar link
+- https://www.youtube.com/watch?v=bRcMVkJS3XQ&t=45s better health bar link (with damaging players) 
+- https://www.youtube.com/watch?v=pKFtyaAPzYo game over screen 
+- https://www.youtube.com/watch?v=hkaysu1Z-N8 player animation 
+- https://www.youtube.com/watch?v=5GWRPwuWtsQ&t=49s PICKUPS
+- https://www.youtube.com/watch?v=pARkG6TupWM leave
+- https://www.youtube.com/watch?v=sPiVz1k-fEs melee animation and attack 
+- https://www.youtube.com full enemy tutorial 
+- https://www.fontspace.com/doom-2016-font-f43672 Fonts
+- https://www.youtube.com/watch?v=n-eLq6tVaN8 Fire effect
+- https://www.youtube.com/watch?v=yaQlRvHgIvE Camera 
+- https://www.youtube.com/watch?v=QUbW6me4D1w UI transitions
+
+
 ## Assets
 
 ### Player 
