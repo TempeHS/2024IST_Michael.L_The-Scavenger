@@ -4,7 +4,7 @@
 
 # Table of Contents 
 - [Table of Contents](#Table-of-Contents)
-- [How to play the game](##How-to-play-the-game)
+- [How to play the game](#User-Documentation)
 - [Controls](#Controls)
 - [What I intended to make](#What-I-intended-to-make)
 - [Walkthrough](#Walkthrough)
