@@ -1,4 +1,4 @@
-# The Scavenger
+![Screenshot 2024-09-27 103019](https://github.com/user-attachments/assets/89d944b6-c0cc-4ec1-a77a-badd43790cc1)# The Scavenger
 
 ![home screen](https://github.com/user-attachments/assets/73050d7c-95b7-4987-9847-4564b6643243)
 
@@ -62,12 +62,17 @@ level one is based around the season of autumn. The ground is a brown dirt colou
 ![Screenshot 2024-09-27 102014](https://github.com/user-attachments/assets/912b6f89-fc2c-4476-8a96-3e1965828863)
 ![Screenshot 2024-09-27 101939](https://github.com/user-attachments/assets/d482269e-a161-4a84-99dd-108848d10e0a)
 
-Here is the code for the pickups:
+-Here is the code for the pickups:
 
 ![Screenshot 2024-09-27 102639](https://github.com/user-attachments/assets/ace07100-5c64-4ebc-b7d3-9f88eff1d08e)
 
 ### Level 2
-Level 2 is based around the season of winter. The ground is a snowy colour and the background is a winter scene. I Also used particles in this level, but this time, I created and imported a snowflake texture so it looked like it was snowing the whole way throught the level. In the level there are the same spikes, but re-tetured to look like icycles. 
+Level 2 is based around the season of winter. The ground is a snowy colour and the background is a winter scene. I Also used particles in this level, but this time, I created and imported a snowflake texture so it looked like it was snowing the whole way throught the level. In the level there are the same spikes, but re-textured to look like icycles. They do the same amount of damage and are placed all around the map as obstacles as you try to make it through. Half way through the level there are some rickety bridges. The first bridge has a script that zomms out the camera, showing a bigger picture and letting the player sus-out their bearings. The next bridge, once tocuhed, brakes and makes you fall into a cave. The cave is very dimly lit, and you have to navigate your way out by following the torches. I used the Unity's light source to make the cave dark and to lght up the torches.
+-Here are the settings for the particles
+![Screenshot 2024-09-27 103057](https://github.com/user-attachments/assets/16ce0963-6454-4054-a46b-7fc99eef037d)
+![Screenshot 2024-09-27 103044](https://github.com/user-attachments/assets/08d12f7b-0838-4b6f-81d4-9e5f625c3184)
+-Here is the code for the falling bridge
+![Screenshot 2024-09-27 103019](https://github.com/user-attachments/assets/7af342a2-c9f4-47e9-94b9-cd97bf77395c)
 
 ### Bibliography - Tutorials used
 
