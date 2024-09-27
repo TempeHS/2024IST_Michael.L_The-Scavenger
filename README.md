@@ -6,6 +6,7 @@
 - [Table of Contents](#Table-of-Contents)
 - [User Documentation](#User-Documentation)
 - [How to play the game](#How-to-play-the-game)
+- [How to play the game](#How-to-play-the-game)
 - [The aim of the game](#The-Aim-of-the-game)
 - [Walkthrough](#Walk-through)
 - [Developer Documentation](#Developer-Documentation)
