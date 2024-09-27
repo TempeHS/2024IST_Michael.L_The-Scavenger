@@ -56,7 +56,18 @@ There are two main enemies in this game, both of which, are mutated hyenas, who 
 ## Level Design
 
 ### Level 1 
-level one is based around the season of autumn. 
+level one is based around the season of autumn. The ground is a brown dirt colour, covered in orange leaves. I used a Particle system and imported a leave texture to make the scene look even more realistic by making it look like autumn leaves are falling from the trees in the background. Throughout the level, there are spikes which damage you. These are the main obstacles which apear throughout the game, and the player has to avoid these by jumping over them or finding routes around them. There are also meat pickups which are scattered around the level. When you pick them up, a counter at the top of the screen adds +1. At the end of the game there is a boss fight. The boss is a mutant hyena who chases you and does damage. Once you kill the boss, it will drop some meat to pick up. 
+-Here are the settings for the particles: 
+
+![Screenshot 2024-09-27 102014](https://github.com/user-attachments/assets/912b6f89-fc2c-4476-8a96-3e1965828863)
+![Screenshot 2024-09-27 101939](https://github.com/user-attachments/assets/d482269e-a161-4a84-99dd-108848d10e0a)
+
+Here is the code for the pickups:
+
+![Screenshot 2024-09-27 102639](https://github.com/user-attachments/assets/ace07100-5c64-4ebc-b7d3-9f88eff1d08e)
+
+### Level 2
+Level 2 is based around the season of winter. The ground is a snowy colour and the background is a winter scene. I Also used particles in this level, but this time, I created and imported a snowflake texture so it looked like it was snowing the whole way throught the level. In the level there are the same spikes, but re-tetured to look like icycles. 
 
 ### Bibliography - Tutorials used
 
