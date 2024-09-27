@@ -17,6 +17,9 @@
 
 # User Documentation
 
+## How to Download the game
+To download the game, go to the 'releases' tab on the right and download the .zip file. After downloading, Extract it, and there you go!
+
 ## How to play the game
 On keyboard, the player can use the A & D keys to move to the left or the right ( A to the left, D to the right). The space-bar, when pressed, will allow the player to jump in the air, an the LEFT MOUSE button will swing the players sword, damaging any enemies in its radius.
 
