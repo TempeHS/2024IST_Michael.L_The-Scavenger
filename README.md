@@ -1,4 +1,4 @@
-![Screenshot 2024-09-27 103019](https://github.com/user-attachments/assets/89d944b6-c0cc-4ec1-a77a-badd43790cc1)# The Scavenger
+# The Scavenger
 
 ![home screen](https://github.com/user-attachments/assets/73050d7c-95b7-4987-9847-4564b6643243)
 
